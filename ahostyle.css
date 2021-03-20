@@ -1,0 +1,115 @@
+body {
+    text-transform: uppercase;
+    background-image: url(img/backgroundsakura.jpg);
+    font-weight: 700;
+    margin: auto;
+}
+
+.isi {
+    background-image: url(img/bg-menu.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    padding: 50px 30px;
+}
+
+/* navigasi */
+.navigasi {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    text-size-adjust: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.navigasi ul {
+    justify-content: center;
+}
+
+.navigasi ul li {
+    float: none;
+    display: inline-block;
+    margin-bottom: 15px;
+    border: 2px solid #6c564b;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.navigasi ul li a {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    color: #6c564b;
+}
+
+.navigasi ul li a:hover {
+    background-color: #6c564b;
+    color: white;
+}
+/* akhir navigasi */
+
+/* content */
+.row {
+    padding-top: 30px;
+}
+
+.brush-stroke {
+    background-image: url(img/brush-stroke.png);
+    background-size: 100%;
+    background-position:center ;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 30px;
+    max-width: 100%;
+    max-height:auto;
+   
+}
+
+
+
+
+
+
+/* akhir content */
+
+
+
+
+.title-menu {
+    background-image: url(img/brush-stroke.png);
+    background-position-x: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height:100%;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    background-position-y: inherit;
+}
+
+.topping-menu {
+    background-image: url(img/brush-stroke.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.jahe {
+    color: red;
+    border: dotted 2px red;
+    font-size: 20px;
+    margin: auto;
+    padding: 5px;
+}
+
+.jahe li {
+    color: black;
+}
